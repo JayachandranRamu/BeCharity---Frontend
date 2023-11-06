@@ -54,7 +54,7 @@ UserRouter.post("/forget-password",async(req,res)=>{
           
               We received a request to reset your password for your account. To reset your password, please click on the following link:
           
-              Password Reset Link [Expires In 5 Min]: https://tiny-puce-zebra-cuff.cyclic.app/user-profile/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjU0MzljNzNkODEwZjU2NmIyZTQwNGZjIiwidXNlcm5hbWUiOiJTaHViaGFtIiwiaWF0IjoxNjk4OTMyMjEzfQ.1QDUsrLJZDFuXT5IamFfvEa0LH7FY0q_XknJpEw0KkQ
+              Password Reset Link [Expires In 5 Min]: https://becharity.vercel.app/user-profile/reset-password/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjU0MzljNzNkODEwZjU2NmIyZTQwNGZjIiwidXNlcm5hbWUiOiJTaHViaGFtIiwiaWF0IjoxNjk4OTMyMjEzfQ.1QDUsrLJZDFuXT5IamFfvEa0LH7FY0q_XknJpEw0KkQ
           
               If you did not request a password reset, please ignore this email. Your account is secure, and no changes have been made.
           
