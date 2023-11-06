@@ -8,7 +8,7 @@ const PaymentRouter=express.Router();
 // PaymentRouter.use(auth)
 //Post the Post
 PaymentRouter.post("/add",async(req,res)=>{
-
+ 
     try {
      const Post=new PaymentModel(req.body);
      await Post.save();
