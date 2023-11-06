@@ -10,6 +10,7 @@ const UserSchema=mongoose.Schema({
     isVolunteers:Boolean
 },{versionKey:false});
 
+
 const UserModel=mongoose.model("user",UserSchema);
 
 module.exports={
