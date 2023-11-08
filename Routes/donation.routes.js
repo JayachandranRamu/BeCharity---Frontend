@@ -45,6 +45,17 @@ query.category=req.query.category;
     }
  })
 
+ DonationRouter.get("/voulnteer",auth,async(req,res)=>{
+
+   try {
+    
+  const Donations=await DonationModel.find({organizer: req.body.user_id});
+    res.status(200).send(Donations);
+   } catch (error) {
+    res.status(400).send({msg:error})
+   }
+})
+
  //Get Single Data
  DonationRouter.get("/:id",async(req,res)=>{
    let {id}=req.params;
